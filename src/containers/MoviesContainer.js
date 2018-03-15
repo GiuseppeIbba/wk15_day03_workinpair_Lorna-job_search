@@ -22,8 +22,7 @@ class MoviesContainer extends Component {
       if (request.status === 200) {
         const jsonString = request.responseText;
         const moviesList = JSON.parse(jsonString);
-        console.log(moviesList);
-        this.setState({movies: moviesList});
+        this.setState({movies: moviesList.Search});
       }
     });
     request.send();
