@@ -1,12 +1,12 @@
 import React, {Component} from "react";
 
-const JobDetails = (props) => {
+const MovieDetails = (props) => {
   return (
     <div>
-      "Hello Job Details"
+      "Hello Movie Details"
       {/* name, employer, salary range, description, link to details, id? */}
     </div>
   );
 }
 
-export default JobDetails;
+export default MovieDetails;

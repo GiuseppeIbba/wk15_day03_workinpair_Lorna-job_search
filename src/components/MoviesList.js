@@ -1,11 +1,11 @@
 import React, {Component} from "react";
-import JobDetails from "./JobDetails"
+import MovieDetails from "./MovieDetails"
 
-const JobsList = (props) => {
+const MoviesList = (props) => {
   return (
-    <JobDetails />
+    <MovieDetails />
     // eventually this will be an html collection generated from all the jobs
   );
 }
 
-export default JobsList;
+export default MoviesList;

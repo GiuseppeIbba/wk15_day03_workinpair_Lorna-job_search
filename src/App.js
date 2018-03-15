@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import JobsContainer from './containers/JobsContainer';
+import MoviesContainer from './containers/MoviesContainer';
 import './App.css';
 
 class App extends Component {
 
-  
+
   render() {
     return (
-      <JobsContainer />
+      <MoviesContainer />
     );
   }
 }
