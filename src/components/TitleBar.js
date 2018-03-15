@@ -2,7 +2,16 @@ import React, {Component} from 'react';
 
 const TitleBar = (props) => {
   return (
-    "Hello TitleBar"
+    <div>
+      <h1>Edinburgh Software Job Search</h1>
+      <select value="">
+        <option disabled value="">Filter by...</option>
+        {/* something here to generate the options to select from */}
+      </select>
+
+
+
+    </div>
   )
 
 

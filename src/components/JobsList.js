@@ -1,8 +1,10 @@
 import React, {Component} from "react";
+import JobDetails from "./JobDetails"
 
 const JobsList = (props) => {
   return (
-    "Hello JobsList"
+    <JobDetails />
+    // eventually this will be an html collection generated from all the jobs
   );
 }
 
